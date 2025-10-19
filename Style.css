@@ -66,11 +66,3 @@ body {
     cursor: url('cursor.png'), auto;
 }
 
-@media (max-width: 900px) {
-    .container {
-        max-width: 99vw;
-    }
-    .responsive-img {
-        max-width: 90vw;
-    }
-}
