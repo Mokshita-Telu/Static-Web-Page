@@ -48,7 +48,7 @@
 
         Footer{
   padding: 8px 18px;
-  background: lightgreen;
+  background: #C8D5B9;;
   color: #fff;
   border: 2px solid #333; 
   text-decoration: none;
@@ -61,6 +61,46 @@
 
         a {
   text-decoration: none;
+}
+
+         .navbar {
+    background: #C8D5B9;
+    box-shadow: 0 2px 10px rgba(30,168,0,0.12);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #065401;
+    margin-right: 0;
+    display: block;
+    border: 3px solid #065401;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 1.4em;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: #232323;
+    font-weight: bold;
+    padding: 1em 0.5em;
+    font-size: 1.08em;
+    border-radius: 7px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.navbar a:hover, .navbar a:focus {
+    background: #153455;
+    color: #fff;
 }
   </style>
 
@@ -119,6 +159,7 @@
 </body>
 
 </html>
+
 
 
 
